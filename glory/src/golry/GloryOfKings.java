@@ -57,7 +57,6 @@ public class GloryOfKings {
         // 默认为10 - 最小点券数额
         int maxCoupon = 10;
         for (int m : stamps) {
-            // 有序数组才可以这样
             if (requiredMoney >= m) {
                 maxCoupon = m;
             }
